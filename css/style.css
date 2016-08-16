@@ -11,48 +11,6 @@ body {
   margin: 0;
 }
 
-.container {
-  margin: 10% auto;
-  width: 900px;
-}
-
-.left {
-  margin-right: 2em;
-  float: left;
-}
-
-.right {
-  padding-top:2em;
-}
-
-.right-top {
-  background-color: red;
-}
-
-.logo {
-  float: left;
-}
-
-.login {
-  display: inline-block;
-  margin-right:6%;
-  margin-top: 1%;
-  vertical-align: top;
-  float:right;
-}
-
-.right-bottom {
-  display:inline-block;
-  width: 504px;
-  background: url("../img/frame.png") no-repeat top;
-}
-
-.content {
-  width: 450px;
-  margin: 0 auto;
-}
-
-
 button {
   background: linear-gradient(to bottom, #4f7ca1 0%, #2f5e86 100%);
   border-radius: 3px;
@@ -64,13 +22,8 @@ button {
   text-decoration: none;
 }
 
-
 h1 {
   color: #06365f;
-}
-
-.login {
-  color: white;
 }
 
 a {
@@ -91,12 +44,54 @@ li {
   padding-left:0.5em;
   padding-right:0.5em;
 }
-.copyright {
-  color: rgb(161,161,161);
-}
+
 
 footer {
   clear: both;
   text-align: center;
   padding: 1em;
+  margin-top: 5em;
+}
+
+
+.container {
+  margin: 8% auto;
+  width: 900px;
+}
+
+.left {
+  margin-right: 2em;
+  float: left;
+}
+
+.right {
+  padding-top:2em;
+}
+
+.logo {
+  float: left;
+}
+
+.login {
+  display: inline-block;
+  margin-right:6%;
+  margin-top: 1%;
+  vertical-align: top;
+  float:right;
+  color: white;
+}
+
+.right-bottom {
+  display:inline-block;
+  width: 504px;
+  background: url("../img/frame.png") no-repeat top;
+}
+
+.content {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: rgb(161,161,161);
 }
