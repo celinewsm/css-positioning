@@ -13,13 +13,17 @@ body {
 
 button {
   background: linear-gradient(to bottom, #4f7ca1 0%, #2f5e86 100%);
-  border-radius: 3px;
-  text-shadow: 1px 1px 3px #5e5d5e;
   color: #ffffff;
-  box-shadow: 1px 1px 5px #252525;
+  padding: 10px;
+  border-radius: 3px;
   border: 0;
-  padding: 10px 10px 10px 10px;
-  text-decoration: none;
+  text-shadow: 1px 1px 3px #5e5d5e;
+  box-shadow: 1px 1px 5px #252525;
+}
+
+.login-text {
+  line-height: 25px;
+  vertical-align: top;
 }
 
 h1 {
